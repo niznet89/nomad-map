@@ -3,11 +3,16 @@ import reactLogo from './assets/react.svg'
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import './App.css'
 
+import { useMap } from "./hooks";
+
 
 function App() {
 
+
   console.log(import.meta.env);
-  const position = [51.505, -0.09];
+  const { position } = useMap();
+
+  console.log(position);
   return (
     <MapContainer
       center={position}
