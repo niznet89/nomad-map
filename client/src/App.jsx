@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import './App.css'
 
-import { useMap } from "./hooks";
+import { useMap } from "./hooks/index.jsx";
 
 
 function App() {
