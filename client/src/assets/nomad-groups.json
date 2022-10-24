@@ -1,0 +1,1347 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9931284,
+          18.787747,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Chiang Mai",
+        "styleUrl": "#icon-1502-0288D1-labelson",
+        "styleHash": "-171b0a49",
+        "description": "https://www.facebook.com/groups/cmnomads/<br>34,695 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.188916,
+          -8.4095178,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Bali",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://facebook.com/groups/balidigitalnomads/ - 18.0K Members<br>https://facebook.com/groups/553237938183702/ - 4,318 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1393366,
+          38.7222524,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Lisbon",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://facebook.com/groups/532696873566509/<br>17,643 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7817676,
+          32.0852999,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Israel",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://www.facebook.com/groups/dnisrael/<br>15.1K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5645737,
+          6.2530408,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Medellín",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://facebook.com/groups/digitalnomadsmedellin/<br>7,594 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.443098,
+          39.3889844,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Spain",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://facebook.com/groups/digitalnomadsspain<br>7,439 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5474373,
+          27.9202202,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Gran Canaria",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://facebook.com/groups/201877786658754/ - 5,661 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5017651,
+          13.7563309,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Bangkok",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://www.facebook.com/groups/1497047133843898/<br>5.1K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0792263,
+          7.6243677,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Ko Lanta",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://facebook.com/groups/KohLantaDigitalNomads/<br>1,607 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4240553,
+          -33.9248685,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Cape Town",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://facebook.com/groups/1535417433393446/<br>7,444 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.771797,
+          7.873054,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Sri Lanka",
+        "styleUrl": "#icon-1499-0288D1-labelson",
+        "styleHash": "64cf5254",
+        "description": "https://www.facebook.com/groups/889138717772937/<br>7.5K members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0738851,
+          20.6295586,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Playa del Carmen",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "http://facebook.com/groups/1608835499405356 -3.4K members<br>https://www.facebook.com/groups/272902926906743/ - 1.3K members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.0135929,
+          9.7318753,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Ko Pha Ngan",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/kpdigitalnomads/<br>3,045 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.827096,
+          41.7151377,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Tbilisi",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/tbilisidigitalnomad<br>1,566 members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6044443,
+          36.0142861,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Tarifa",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/769268589801675/<br>3,953 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3762881,
+          39.4699075,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Valencia",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/ValenciaRemoteWorkers/ - 776 Members<br><br>https://www.facebook.com/groups/ValenciaCoworking/ - 2,804 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7275388,
+          37.9838096,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Athens",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/534619123594221/<br>3,058 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1544306,
+          3.6940716,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Colombia",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/startupmedellin/<br>1,797 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.8396744,
+          12.547688,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Philippines",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/PhilippineDigitalNomads/<br>2,617 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.040235,
+          47.497912,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Budapest",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/648464231947085/<br>2,832 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6291304,
+          28.2915637,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Canary Islands",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/1618624795083333/<br>3,311 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1734035,
+          41.3850639,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Barcelona",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/barcelonadigitalnomads/ - 1,694 Members<br>https://facebook.com/groups/847138072058478/ - 764 Members<br>https://facebook.com/groups/codino/- 761 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.485653,
+          41.8404241,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Bansko",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/coworkingbanskopublic/<br>2.9K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.2624778,
+          -8.5068536,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Ubud",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/1558383671076382/<br>1,257 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.3922504,
+          7.8804479,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Phuket",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/phuketnomads/<br>1069 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6296638,
+          10.8230989,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Ho Chi Minh City",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/saigonnomads/<br>1,012 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2021667,
+          16.0544068,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Da Nang",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/digitalnomadsindanang/<br>1,418 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.96288,
+          20.593684,
+          0
+        ]
+      },
+      "properties": {
+        "name": "India",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/DigitalNomadIndia/<br>1.5K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.375416,
+          35.937496,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Malta",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/maltadigitalnomads/<br>1.6K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1277583,
+          51.5073509,
+          0
+        ]
+      },
+      "properties": {
+        "name": "London",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/londondigitalnomads/<br>1.4K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6291053,
+          41.1579438,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Porto",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/portodigitalnomads - 1.5K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3239605,
+          27.7172453,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Kathmandu",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/426526951054486/<br>1.1K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.686855,
+          3.139003,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Kuala Lumpur",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/KLDigitalNomads/<br>1.3K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.133208,
+          19.4326077,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Mexico City",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/117389225541610/<br>2.1K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.775136,
+          -25.274398,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Australia",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/725799070863819/<br>1.2K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.930834,
+          37.0179538,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Algarve",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/110559502949826/<br>1.7K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.429859,
+          35.126413,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Cyprus",
+        "styleUrl": "#icon-1500-0288D1",
+        "styleHash": "-6994dd28",
+        "styleMapHash": {
+          "normal": "#icon-1500-0288D1-normal",
+          "highlight": "#icon-1500-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/cyprusdn/<br>1.7K Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.590149,
+          18.220833,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Puerto Rico",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/427229510977265/<br>916 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.552784,
+          23.634501,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Mexico",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/1532508883713200/<br>780 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8677444,
+          1.3553794,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/singaporedigitalnomads/<br>551 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4378005,
+          50.0755381,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Prague",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/prague.digitalnomads/<br>582 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3327617,
+          5.4163459,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Penang",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/642269085953446/<br>600 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2176379,
+          36.4340533,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Rhodes",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/2063028190591452/<br>271 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.469936,
+          50.503887,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Belgium",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/digitalnomadsbelgium/<br>246 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.367668,
+          46.5916582,
+          0
+        ]
+      },
+      "properties": {
+        "name": "France",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/digitalnomadsfrance/ - 207 Members<br>https://www.facebook.com/groups/1763930070541873/ - 206 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4653502,
+          20.2114185,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Tulum",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/1489807644393832/<br>455 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3218675,
+          42.6977082,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Sofia",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/1386394721376365/<br>296 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2000001,
+          45.1,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Croatia",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/164925017337957<br>392 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0175712,
+          39.6952629,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Majorca",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/DNMallorca/<br>388 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.404954,
+          52.5200066,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Berlin",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/407182036362960<br>280 members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0059728,
+          40.7127753,
+          0
+        ]
+      },
+      "properties": {
+        "name": "New York City",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/1054273381315892/<br>212 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1728965,
+          -22.9068467,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Rio de Janeiro",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/221330464988478/<br>377 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.029717,
+          49.839683,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Lviv",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/1712113428898401/<br>322 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5234,
+          50.4501,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Kiev",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/kievdigitalnomads/<br>256 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.885971,
+          -40.900557,
+          0
+        ]
+      },
+      "properties": {
+        "name": "New Zealand",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/500683216759707<br>158 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5480499,
+          -27.5953778,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Florianópolis",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/1550146811977827/<br>233 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0427934,
+          -12.046374,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Lima",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/digitalnomadslima/<br>113 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.37439,
+          42.708678,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Montenegro",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/montenegro.digitalnomads/<br>236 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.230759,
+          15.783471,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Guatemala",
+        "styleUrl": "#icon-1498-0288D1",
+        "styleHash": "-6f0628ca",
+        "styleMapHash": {
+          "normal": "#icon-1498-0288D1-normal",
+          "highlight": "#icon-1498-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/2656808764413581/<br>159 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.7089858,
+          30.5453374,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Taghazout",
+        "styleUrl": "#icon-1739-0288D1",
+        "styleHash": "79f17ec0",
+        "styleMapHash": {
+          "normal": "#icon-1739-0288D1-normal",
+          "highlight": "#icon-1739-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/673348193049691/<br>72 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3815591,
+          -34.6036844,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Buenos Aires",
+        "styleUrl": "#icon-1739-0288D1",
+        "styleHash": "79f17ec0",
+        "styleMapHash": {
+          "normal": "#icon-1739-0288D1-normal",
+          "highlight": "#icon-1739-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/1089088637782182/<br>65 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194155,
+          37.7749295,
+          0
+        ]
+      },
+      "properties": {
+        "name": "San Francisco",
+        "styleUrl": "#icon-1739-0288D1",
+        "styleHash": "79f17ec0",
+        "styleMapHash": {
+          "normal": "#icon-1739-0288D1-normal",
+          "highlight": "#icon-1739-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/133067637366552/<br>57 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6730275,
+          37.1027881,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Lagos",
+        "styleUrl": "#icon-1739-0288D1",
+        "styleHash": "79f17ec0",
+        "styleMapHash": {
+          "normal": "#icon-1739-0288D1-normal",
+          "highlight": "#icon-1739-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/328419678202566/<br>97 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.123996,
+          15.2993265,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Goa",
+        "styleUrl": "#icon-1739-0288D1",
+        "styleHash": "79f17ec0",
+        "styleMapHash": {
+          "normal": "#icon-1739-0288D1-normal",
+          "highlight": "#icon-1739-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/1560305574216366/<br>38 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3738189,
+          48.2081743,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Vienna",
+        "styleUrl": "#icon-1739-0288D1",
+        "styleHash": "79f17ec0",
+        "styleMapHash": {
+          "normal": "#icon-1739-0288D1-normal",
+          "highlight": "#icon-1739-0288D1-highlight"
+        },
+        "description": "https://facebook.com/groups/166964227310853/<br>55 Members"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.183406,
+          -1.831239,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Ecuador",
+        "styleUrl": "#icon-1739-0288D1",
+        "styleHash": "79f17ec0",
+        "styleMapHash": {
+          "normal": "#icon-1739-0288D1-normal",
+          "highlight": "#icon-1739-0288D1-highlight"
+        },
+        "description": "https://www.facebook.com/groups/dnecuador/<br>38 members"
+      }
+    }
+  ]
+}

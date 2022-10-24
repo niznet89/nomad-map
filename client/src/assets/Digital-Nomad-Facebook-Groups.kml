@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Digital Nomad Facebook Groups</name>
+    <description><![CDATA[Regional Groups:<br>Europe: https://facebook.com/groups/digitalnomadseurope/<br>Asia: https://facebook.com/groups/digitalnomadsasia/]]></description>
+    <Style id="icon-1498-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1498-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1498-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1498-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1498-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1499-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1500-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1500-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1500-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1500-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1500-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name><![CDATA[> 5000 Members]]></name>
+      <Placemark>
+        <name>Chiang Mai</name>
+        <description><![CDATA[https://www.facebook.com/groups/cmnomads/<br>34,695 Members]]></description>
+        <styleUrl>#icon-1502-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.9931284,18.787747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bali</name>
+        <description><![CDATA[https://facebook.com/groups/balidigitalnomads/ - 18.0K Members<br>https://facebook.com/groups/553237938183702/ - 4,318 Members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            115.188916,-8.4095178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lisbon</name>
+        <description><![CDATA[https://facebook.com/groups/532696873566509/<br>17,643 Members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -9.1393366,38.7222524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Israel</name>
+        <description><![CDATA[https://www.facebook.com/groups/dnisrael/<br>15.1K Members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            34.7817676,32.0852999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medellín</name>
+        <description><![CDATA[https://facebook.com/groups/digitalnomadsmedellin/<br>7,594 Members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5645737,6.2530408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spain</name>
+        <description><![CDATA[https://facebook.com/groups/digitalnomadsspain<br>7,439 Members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -3.443098,39.3889844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gran Canaria</name>
+        <description>https://facebook.com/groups/201877786658754/ - 5,661 Members</description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -15.5474373,27.9202202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bangkok</name>
+        <description><![CDATA[https://www.facebook.com/groups/1497047133843898/<br>5.1K Members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            100.5017651,13.7563309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ko Lanta</name>
+        <description><![CDATA[https://facebook.com/groups/KohLantaDigitalNomads/<br>1,607 Members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            99.0792263,7.6243677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cape Town</name>
+        <description><![CDATA[https://facebook.com/groups/1535417433393446/<br>7,444 Members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            18.4240553,-33.9248685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sri Lanka</name>
+        <description><![CDATA[https://www.facebook.com/groups/889138717772937/<br>7.5K members]]></description>
+        <styleUrl>#icon-1499-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            80.771797,7.873054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>1000-5000 Members</name>
+      <Placemark>
+        <name>Playa del Carmen</name>
+        <description><![CDATA[http://facebook.com/groups/1608835499405356 -3.4K members<br>https://www.facebook.com/groups/272902926906743/ - 1.3K members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -87.0738851,20.6295586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ko Pha Ngan</name>
+        <description><![CDATA[https://www.facebook.com/groups/kpdigitalnomads/<br>3,045 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            100.0135929,9.7318753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tbilisi</name>
+        <description><![CDATA[https://www.facebook.com/groups/tbilisidigitalnomad<br>1,566 members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            44.827096,41.7151377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tarifa</name>
+        <description><![CDATA[https://facebook.com/groups/769268589801675/<br>3,953 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -5.6044443,36.0142861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valencia</name>
+        <description><![CDATA[https://www.facebook.com/groups/ValenciaRemoteWorkers/ - 776 Members<br><br>https://www.facebook.com/groups/ValenciaCoworking/ - 2,804 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3762881,39.4699075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Athens</name>
+        <description><![CDATA[https://facebook.com/groups/534619123594221/<br>3,058 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            23.7275388,37.9838096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colombia</name>
+        <description><![CDATA[https://facebook.com/groups/startupmedellin/<br>1,797 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.1544306,3.6940716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Philippines</name>
+        <description><![CDATA[https://www.facebook.com/groups/PhilippineDigitalNomads/<br>2,617 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            122.8396744,12.547688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Budapest</name>
+        <description><![CDATA[https://facebook.com/groups/648464231947085/<br>2,832 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            19.040235,47.497912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canary Islands</name>
+        <description><![CDATA[https://facebook.com/groups/1618624795083333/<br>3,311 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -16.6291304,28.2915637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barcelona</name>
+        <description><![CDATA[https://facebook.com/groups/barcelonadigitalnomads/ - 1,694 Members<br>https://facebook.com/groups/847138072058478/ - 764 Members<br>https://facebook.com/groups/codino/- 761 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            2.1734035,41.3850639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bansko</name>
+        <description><![CDATA[https://www.facebook.com/groups/coworkingbanskopublic/<br>2.9K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            23.485653,41.8404241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ubud</name>
+        <description><![CDATA[https://facebook.com/groups/1558383671076382/<br>1,257 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            115.2624778,-8.5068536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phuket</name>
+        <description><![CDATA[https://facebook.com/groups/phuketnomads/<br>1069 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            98.3922504,7.8804479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ho Chi Minh City</name>
+        <description><![CDATA[https://facebook.com/groups/saigonnomads/<br>1,012 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            106.6296638,10.8230989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Nang</name>
+        <description><![CDATA[https://facebook.com/groups/digitalnomadsindanang/<br>1,418 Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            108.2021667,16.0544068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>India</name>
+        <description><![CDATA[https://facebook.com/groups/DigitalNomadIndia/<br>1.5K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            78.96288,20.593684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malta</name>
+        <description><![CDATA[https://facebook.com/groups/maltadigitalnomads/<br>1.6K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.375416,35.937496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>London</name>
+        <description><![CDATA[https://www.facebook.com/groups/londondigitalnomads/<br>1.4K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -0.1277583,51.5073509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porto</name>
+        <description>https://facebook.com/groups/portodigitalnomads - 1.5K Members</description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6291053,41.1579438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kathmandu</name>
+        <description><![CDATA[https://www.facebook.com/groups/426526951054486/<br>1.1K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            85.3239605,27.7172453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuala Lumpur</name>
+        <description><![CDATA[https://www.facebook.com/groups/KLDigitalNomads/<br>1.3K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            101.686855,3.139003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mexico City</name>
+        <description><![CDATA[https://www.facebook.com/groups/117389225541610/<br>2.1K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -99.133208,19.4326077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Australia</name>
+        <description><![CDATA[https://www.facebook.com/groups/725799070863819/<br>1.2K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            133.775136,-25.274398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Algarve</name>
+        <description><![CDATA[https://www.facebook.com/groups/110559502949826/<br>1.7K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -7.930834,37.0179538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cyprus</name>
+        <description><![CDATA[https://www.facebook.com/groups/cyprusdn/<br>1.7K Members]]></description>
+        <styleUrl>#icon-1500-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            33.429859,35.126413,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>100-1000 Members</name>
+      <Placemark>
+        <name>Puerto Rico</name>
+        <description><![CDATA[https://www.facebook.com/groups/427229510977265/<br>916 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.590149,18.220833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mexico</name>
+        <description><![CDATA[https://facebook.com/groups/1532508883713200/<br>780 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -102.552784,23.634501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Singapore</name>
+        <description><![CDATA[https://facebook.com/groups/singaporedigitalnomads/<br>551 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            103.8677444,1.3553794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prague</name>
+        <description><![CDATA[https://www.facebook.com/groups/prague.digitalnomads/<br>582 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.4378005,50.0755381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penang</name>
+        <description><![CDATA[https://facebook.com/groups/642269085953446/<br>600 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            100.3327617,5.4163459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rhodes</name>
+        <description><![CDATA[https://facebook.com/groups/2063028190591452/<br>271 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            28.2176379,36.4340533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belgium</name>
+        <description><![CDATA[https://facebook.com/groups/digitalnomadsbelgium/<br>246 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            4.469936,50.503887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>France</name>
+        <description><![CDATA[https://facebook.com/groups/digitalnomadsfrance/ - 207 Members<br>https://www.facebook.com/groups/1763930070541873/ - 206 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            2.367668,46.5916582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tulum</name>
+        <description><![CDATA[https://www.facebook.com/groups/1489807644393832/<br>455 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -87.4653502,20.2114185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sofia</name>
+        <description><![CDATA[https://facebook.com/groups/1386394721376365/<br>296 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            23.3218675,42.6977082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Croatia</name>
+        <description><![CDATA[https://facebook.com/groups/164925017337957<br>392 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            15.2000001,45.1,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Majorca</name>
+        <description><![CDATA[https://www.facebook.com/groups/DNMallorca/<br>388 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            3.0175712,39.6952629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berlin</name>
+        <description><![CDATA[https://facebook.com/groups/407182036362960<br>280 members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            13.404954,52.5200066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New York City</name>
+        <description><![CDATA[https://facebook.com/groups/1054273381315892/<br>212 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0059728,40.7127753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rio de Janeiro</name>
+        <description><![CDATA[https://facebook.com/groups/221330464988478/<br>377 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -43.1728965,-22.9068467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lviv</name>
+        <description><![CDATA[https://www.facebook.com/groups/1712113428898401/<br>322 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            24.029717,49.839683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kiev</name>
+        <description><![CDATA[https://facebook.com/groups/kievdigitalnomads/<br>256 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            30.5234,50.4501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Zealand</name>
+        <description><![CDATA[https://facebook.com/groups/500683216759707<br>158 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            174.885971,-40.900557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Florianópolis</name>
+        <description><![CDATA[https://facebook.com/groups/1550146811977827/<br>233 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -48.5480499,-27.5953778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lima</name>
+        <description><![CDATA[https://facebook.com/groups/digitalnomadslima/<br>113 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0427934,-12.046374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montenegro</name>
+        <description><![CDATA[https://www.facebook.com/groups/montenegro.digitalnomads/<br>236 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            19.37439,42.708678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guatemala</name>
+        <description><![CDATA[https://www.facebook.com/groups/2656808764413581/<br>159 Members]]></description>
+        <styleUrl>#icon-1498-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -90.230759,15.783471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[< 100 Members]]></name>
+      <Placemark>
+        <name>Taghazout</name>
+        <description><![CDATA[https://facebook.com/groups/673348193049691/<br>72 Members]]></description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -9.7089858,30.5453374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buenos Aires</name>
+        <description><![CDATA[https://facebook.com/groups/1089088637782182/<br>65 Members]]></description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -58.3815591,-34.6036844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Francisco</name>
+        <description><![CDATA[https://facebook.com/groups/133067637366552/<br>57 Members]]></description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4194155,37.7749295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lagos</name>
+        <description><![CDATA[https://www.facebook.com/groups/328419678202566/<br>97 Members]]></description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6730275,37.1027881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goa</name>
+        <description><![CDATA[https://facebook.com/groups/1560305574216366/<br>38 Members]]></description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            74.123996,15.2993265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vienna</name>
+        <description><![CDATA[https://facebook.com/groups/166964227310853/<br>55 Members]]></description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            16.3738189,48.2081743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ecuador</name>
+        <description><![CDATA[https://www.facebook.com/groups/dnecuador/<br>38 members]]></description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -78.183406,-1.831239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
