@@ -14,7 +14,7 @@ function App() {
     const map = useMap();
     const sample = changeMap();
     console.log("map", sample)
-    map.setView(sample.position, 10);
+    map.setView(sample.position, 12);
     return null;
   }
 
@@ -34,7 +34,7 @@ function App() {
     <SearchAppBar />
     <MapContainer
       center={[50.5, 30.5]}
-      zoom={10}
+      zoom={12}
       scrollWheelZoom={true}
       style={{ minHeight: "100vh", minWidth: "100vw" }}
     >
@@ -42,6 +42,7 @@ function App() {
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        detectRetina={true}
       />
       <Markers />
       {/* <Pane name="cyan-rectangle" style={{ zIndex: 500 }}>
