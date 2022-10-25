@@ -8,13 +8,15 @@ contract NomadMap is ERC20 {
   struct City {
     string name;
     string country;
-    mapping(string => int8) WaGroupNames;
-    mapping(string => string) WaUrls;
-    string[] WaGroupNamesArray;
+    uint long;
+    uint lat;
+    string[] WaGroupArray;
+    string[] FBGroupArray;
   }
 
   address[] members;
   City[] cities;
+  mapping(string => City) public mappingCities;
 
   constructor() ERC20("NomadMap", "DMM") {
     }
@@ -31,6 +33,10 @@ contract NomadMap is ERC20 {
     City newCity = City();
     newCity.name = _name;
     newCity.country = _country;
+
+  }
+
+  function addWaGroup(string memory _city, string memory _group) public {
 
   }
 }
