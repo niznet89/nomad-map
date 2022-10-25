@@ -14,15 +14,17 @@ export const changeMap = () => {
 
     try {
       const res = await fetch(`https://get.geojs.io/v1/ip/geo/${userIP}`);
+      const obj = await res.json();
+      const test = {lat:parseFloat(obj.latitude),
+      lng: parseFloat(obj.longitude)};
+      console.log(test)
+      return setPosition(test);
+
       } catch (e) {
         alert("Turn off adblocker for personalized location services!");
       }
 
-    const obj = await res.json();
-    const test = {lat:parseFloat(obj.latitude),
-      lng: parseFloat(obj.longitude)};
-    console.log(test)
-    return setPosition(test);
+
   }
 
   useEffect(() => {
