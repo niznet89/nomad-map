@@ -14,7 +14,7 @@ function App() {
     const map = useMap();
     const sample = changeMap();
     console.log("map", sample)
-    map.setView(sample.position, 13);
+    map.setView(sample.position, 10);
     return null;
   }
 
@@ -24,8 +24,8 @@ function App() {
   ]
 
 
-  console.log(import.meta.env);
-  //const { position } = changeMap();
+  // console.log(import.meta.env);
+  // const { position } = changeMap();
 
 
   //console.log(position);
@@ -34,7 +34,7 @@ function App() {
     <SearchAppBar />
     <MapContainer
       center={[50.5, 30.5]}
-      zoom={12}
+      zoom={10}
       scrollWheelZoom={true}
       style={{ minHeight: "100vh", minWidth: "100vw" }}
     >

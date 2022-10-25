@@ -12,7 +12,12 @@ export const changeMap = () => {
   const fetchData = async () => {
     const userIP = await publicIpv4();
 
-    const res = await fetch(`https://get.geojs.io/v1/ip/geo/${userIP}`);
+    try {
+      const res = await fetch(`https://get.geojs.io/v1/ip/geo/${userIP}`);
+      } catch (e) {
+        alert("Turn off adblocker for personalized location services!");
+      }
+
     const obj = await res.json();
     const test = {lat:parseFloat(obj.latitude),
       lng: parseFloat(obj.longitude)};

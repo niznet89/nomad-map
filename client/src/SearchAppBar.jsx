@@ -71,14 +71,14 @@ export default function SearchAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
+            NomadMap
           </Typography>
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Type in a location"
+              placeholder="Find community..."
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
