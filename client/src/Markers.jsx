@@ -50,7 +50,10 @@ export default function Markers() {
             group.geometry.coordinates[0]
           ]}
         >
-          <Popup>{group.properties.description}</Popup>
+          <Popup>
+            <b>{group.properties.name} </b>
+            <br />
+            {group.properties.description}</Popup>
       </Marker>
       </>
       )

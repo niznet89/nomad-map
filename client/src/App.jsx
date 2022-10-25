@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup, Rectangle, Pane, useMap } from 
 //import { useMap } from 'react-leaflet/hooks';
 import './App.css';
 import Markers from "./Markers.jsx";
-
+import SearchAppBar from "./SearchAppBar.jsx";
 import { changeMap } from "./hooks/index.jsx";
 
 
@@ -29,6 +29,8 @@ function App() {
 
   //console.log(position);
   return (
+    <>
+    <SearchAppBar />
     <MapContainer
       center={[50.5, 30.5]}
       zoom={12}
@@ -40,17 +42,13 @@ function App() {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={position}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
       <Markers />
       {/* <Pane name="cyan-rectangle" style={{ zIndex: 500 }}>
         <Rectangle bounds={outer} pathOptions={{ color: 'cyan' }} />
       </Pane> */}
 
     </MapContainer>
+    </>
   );
 }
 
