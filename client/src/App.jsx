@@ -13,7 +13,7 @@ function App() {
   function ChangeView() {
     const map = useMap();
     const sample = changeMap();
-    console.log(sample)
+    console.log("map", sample)
     map.setView(sample.position, 13);
     return null;
   }
@@ -25,7 +25,8 @@ function App() {
 
 
   console.log(import.meta.env);
-  const { position } = changeMap();
+  //const { position } = changeMap();
+
 
   //console.log(position);
   return (
