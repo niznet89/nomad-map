@@ -24,7 +24,6 @@ export const changeMap = () => {
         alert("Turn off adblocker for personalized location services!");
       }
 
-
   }
 
   useEffect(() => {
