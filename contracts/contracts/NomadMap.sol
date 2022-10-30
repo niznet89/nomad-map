@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
-contract NomadMap is ERC20 {
+contract NomadMap {
 
   struct City {
     string name;
@@ -18,7 +16,7 @@ contract NomadMap is ERC20 {
   City[] cities;
   mapping(string => City) public mappingCities;
 
-  constructor() ERC20("NomadMap", "DMM") {
+  constructor() {
     }
 
   function addMember() public {
