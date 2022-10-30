@@ -5,36 +5,50 @@ contract NomadMap {
 
   struct City {
     string name;
-    string country;
-    uint long;
-    uint lat;
+    string long;
+    string lat;
     string[] WaGroupArray;
     string[] FBGroupArray;
   }
 
-  address[] members;
+  // address[] members;
   City[] cities;
   mapping(string => City) public mappingCities;
 
-  constructor() {
+  constructor(string[] memory _name, string[] memory _long, string[] memory _lat, string[] memory _fbGroup) {
+
+      for (uint i = 0; i < _name.length; i++) {
+        City storage newCity = cities.push();
+        newCity.name = _name[i];
+        newCity.long = _long[i];
+        newCity.lat = _lat[i];
+        string group[] = _fbGroup[i];
+        for (uint y = 0; i < _fbGroup.length; i++) {
+
+        }
+      }
+
     }
 
-  function addMember() public {
-    // Payable?
-    members.push(msg.sender);
-    // User gets 3 DMM tokens once he signs up
-    _mint(msg.sender, 3000000000000000000);
-  }
 
-  function createCity(string calldata _name, string calldata _country) public {
+  function createCity(string memory _name, string memory _long, string memory _lat) public {
     // Does the city need to be an argument?
-    City newCity = City();
+    City storage newCity = cities.push();
     newCity.name = _name;
-    newCity.country = _country;
+    newCity.long = _long;
+    newCity.lat = _lat;
 
   }
 
   function addWaGroup(string memory _city, string memory _group) public {
+    mappingCities[_city].WaGroupArray.push(_group);
+  }
 
+  function addFBGroup(string memory _city, string memory _group) public {
+    mappingCities[_city].FBGroupArray.push(_group);
+  }
+
+  function returnAllCities() public view returns(City[] memory) {
+    return cities;
   }
 }
