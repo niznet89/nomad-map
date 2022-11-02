@@ -9,8 +9,10 @@ export default function SearchField() {
   const searchControl = new GeoSearchControl({
     provider: provider,
     autoComplete: true, // optional: true|false  - default true
-    autoCompleteDelay: 250, // optional: number      - default 250
+    autoCompleteDelay: 250, // optional: number      - default 250,
+    style: "button"
   });
+  console.log(searchControl);
 
   const map = useMap();
   useEffect(() => {

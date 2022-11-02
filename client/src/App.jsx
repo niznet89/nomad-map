@@ -12,6 +12,7 @@ import SearchField from "./SearchField.jsx";
 
 function App() {
   let [value, setValue] = useState(0);
+  const [locations, setLocations] = useState('');
 
 
 
@@ -21,6 +22,14 @@ function App() {
     console.log("map", sample)
     map.setView(sample.position, 12);
     return null;
+  }
+
+  async function getSearchQuery(search) {
+    const provider = new OpenStreetMapProvider();
+
+    const results = await provider.search({ query: search });
+    console.log(results); // » [{}, {}, {}, ...]
+    setLocations(results);
   }
 
   const inner = [
@@ -37,7 +46,7 @@ function App() {
   //console.log(position);
   return (
     <>
-    <SearchAppBar test={1} />
+    <SearchAppBar jsonLocations={getSearchQuery} />
     <div>
         <MapContainer
           center={[50.5, 30.5]}

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState, useEffect } from 'react'
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -8,6 +9,10 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import SearchField from "./SearchField.jsx";
+import { OpenStreetMapProvider } from 'leaflet-geosearch';
+import Button from '@mui/material/InputBase';
+
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -51,9 +56,34 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function SearchAppBar(props) {
 
-  console.log("here are", props);
+
+// const form = document.querySelector('.css-yz9k0d-MuiInputBase-input').value;
+//const input = form.querySelector('input[type="text"]');
+
+// form.addEventListener('submit', async (event) => {
+//   event.preventDefault();
+//   if (event !== null) {
+//     const results = await provider.search({ query: input.value });
+//     console.log(results); // » [{}, {}, {}, ...]
+//   }
+
+// });
+
+export default function SearchAppBar(props) {
+  const [search, setSearch] = useState('');
+
+  const handleChange = async (event) => {
+    const provider = new OpenStreetMapProvider();
+    setSearch(event.target.value);
+    // function from parent
+    console.log(await props.jsonLocations("bogota"))
+    }
+
+
+
+
+  // console.log(search);
 
   return (<>
   <Box sx={{ flexGrow: props.test }} >
@@ -85,10 +115,14 @@ export default function SearchAppBar(props) {
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Search by location"
+              value={search}
+              onChange={handleChange}
+              placeholder="enter your search here"
               inputProps={{ 'aria-label': 'search' }}
             />
+
           </Search>
+
         </Toolbar>
       </AppBar>
     </Box>
