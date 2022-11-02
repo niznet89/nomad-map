@@ -9,6 +9,7 @@ import { changeMap } from "./hooks/index.jsx";
 
 
 function App() {
+  let [value, setValue] = useState(0);
 
   function ChangeView() {
     const map = useMap();
@@ -24,6 +25,7 @@ function App() {
   ]
 
 
+
   // console.log(import.meta.env);
   // const { position } = changeMap();
 
@@ -31,25 +33,28 @@ function App() {
   //console.log(position);
   return (
     <>
-    <SearchAppBar />
-    <MapContainer
-      center={[50.5, 30.5]}
-      zoom={12}
-      scrollWheelZoom={true}
-      style={{ minHeight: "100vh", minWidth: "100vw" }}
-    >
-      <ChangeView />
-      <TileLayer
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        detectRetina={true}
-      />
-      <Markers />
-      {/* <Pane name="cyan-rectangle" style={{ zIndex: 500 }}>
-        <Rectangle bounds={outer} pathOptions={{ color: 'cyan' }} />
-      </Pane> */}
+    <SearchAppBar test={1} />
+    <div>
+        <MapContainer
+          center={[50.5, 30.5]}
+          zoom={12}
+          scrollWheelZoom={true}
+          style={{ minHeight: "100vh", minWidth: "100vw", width: "100%" }}
+        >
 
-    </MapContainer>
+          <ChangeView />
+          <TileLayer
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            detectRetina={true}
+          />
+          <Markers />
+          {/* <Pane name="cyan-rectangle" style={{ zIndex: 500 }}>
+            <Rectangle bounds={outer} pathOptions={{ color: 'cyan' }} />
+          </Pane> */}
+
+        </MapContainer>
+    </div>
     </>
   );
 }

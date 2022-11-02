@@ -19,7 +19,7 @@ const Search = styled('div')(({ theme }) => ({
   marginLeft: 0,
   width: '100%',
   [theme.breakpoints.up('sm')]: {
-    marginLeft: theme.spacing(1),
+    marginLeft: theme.spacing(0),
     width: 'auto',
   },
 }));
@@ -51,13 +51,16 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function SearchAppBar() {
+export default function SearchAppBar(props) {
+
+  console.log("here are", props);
+
   return (<>
-  <Box sx={{ flexGrow: 1 }}>
+  <Box sx={{ flexGrow: props.test }}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
-            size="large"
+            size="medium"
             edge="start"
             color="inherit"
             aria-label="open drawer"
@@ -73,6 +76,7 @@ export default function SearchAppBar() {
           >
             NomadMap
           </Typography>
+          <h2>It is {new Date().toLocaleTimeString()}.</h2>
           <Search>
             <SearchIconWrapper>
               <SearchIcon />

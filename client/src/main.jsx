@@ -7,6 +7,7 @@ import SearchAppBar from "./SearchAppBar.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+
     <App />
   </React.StrictMode>
 )

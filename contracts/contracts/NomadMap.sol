@@ -13,19 +13,19 @@ contract NomadMap {
 
   // address[] members;
   City[] cities;
-  mapping(string => City) public mappingCities;
+  mapping(string => uint) public mappingCities;
+  uint index = 0;
 
-  constructor(string[] memory _name, string[] memory _long, string[] memory _lat, string[] memory _fbGroup) {
+  constructor(string[] memory _name, string[] memory _long, string[] memory _lat, string[][] memory  _fbGroup) {
 
       for (uint i = 0; i < _name.length; i++) {
         City storage newCity = cities.push();
         newCity.name = _name[i];
         newCity.long = _long[i];
         newCity.lat = _lat[i];
-        string group[] = _fbGroup[i];
-        for (uint y = 0; i < _fbGroup.length; i++) {
-
-        }
+        newCity.FBGroupArray = _fbGroup[i];
+        mappingCities[_name[i]] = index;
+        index++;
       }
 
     }
@@ -37,15 +37,19 @@ contract NomadMap {
     newCity.name = _name;
     newCity.long = _long;
     newCity.lat = _lat;
+    mappingCities[_name] = index;
+    index++;
 
   }
 
   function addWaGroup(string memory _city, string memory _group) public {
-    mappingCities[_city].WaGroupArray.push(_group);
+    uint localIndex = mappingCities[_city];
+    cities[localIndex].WaGroupArray.push(_group);
   }
 
   function addFBGroup(string memory _city, string memory _group) public {
-    mappingCities[_city].FBGroupArray.push(_group);
+    uint localIndex = mappingCities[_city];
+    cities[localIndex].FBGroupArray.push(_group);
   }
 
   function returnAllCities() public view returns(City[] memory) {

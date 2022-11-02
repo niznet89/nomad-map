@@ -14,8 +14,8 @@ const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545/");
 const wallet = new ethers.Wallet("0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80", provider);
 
 async function main() {
-  const Factory = await hre.ethers.getContractFactory("NomadMap");
-
+  const NomadMap = await hre.ethers.getContractFactory("NomadMap");
+  console.log("hello");
   const city = [];
   const long = [];
   const lat = [];
@@ -27,14 +27,20 @@ async function main() {
 
   nomad_groups.features.map((group, i) => {
     city.push(group.properties.name);
-    lat.push(group.geometry.coordinates[1]);
-    long.push(group.geometry.coordinates[0]);
+    lat.push(group.geometry.coordinates[1].toString());
+    long.push(group.geometry.coordinates[0].toString());
     const test = matchString(group.properties.description)
     fbGroup.push(test);
 
   })
 
-  const factory = await Factory.deploy(city, long, lat, fbGroup);
+  const nomad = await NomadMap.deploy(city, long, lat, fbGroup);
+
+  console.log(nomad.address)
+
+  const result = await nomad.returnAllCities();
+
+  console.log(result[0]);
 
 
 }
