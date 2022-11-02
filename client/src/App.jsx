@@ -2,14 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import { MapContainer, TileLayer, Marker, Popup, Rectangle, Pane, useMap } from "react-leaflet";
 //import { useMap } from 'react-leaflet/hooks';
+import { GeoSearchControl, OpenStreetMapProvider } from 'leaflet-geosearch';
 import './App.css';
 import Markers from "./Markers.jsx";
 import SearchAppBar from "./SearchAppBar.jsx";
 import { changeMap } from "./hooks/index.jsx";
+import SearchField from "./SearchField.jsx";
 
 
 function App() {
   let [value, setValue] = useState(0);
+
+
 
   function ChangeView() {
     const map = useMap();
@@ -39,9 +43,10 @@ function App() {
           center={[50.5, 30.5]}
           zoom={12}
           scrollWheelZoom={true}
+          zoomControl={false}
           style={{ minHeight: "100vh", minWidth: "100vw", width: "100%" }}
         >
-
+          <SearchField />
           <ChangeView />
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

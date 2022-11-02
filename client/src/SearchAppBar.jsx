@@ -37,15 +37,15 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
   color: 'inherit',
   '& .MuiInputBase-input': {
-    padding: theme.spacing(1, 1, 1, 0),
+    padding: theme.spacing(1, 0, 1, 0),
     // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create('width'),
     width: '100%',
     [theme.breakpoints.up('sm')]: {
-      width: '12ch',
+      width: '30ch',
       '&:focus': {
-        width: '20ch',
+        width: '50ch',
       },
     },
   },
@@ -56,7 +56,7 @@ export default function SearchAppBar(props) {
   console.log("here are", props);
 
   return (<>
-  <Box sx={{ flexGrow: props.test }}>
+  <Box sx={{ flexGrow: props.test }} >
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -73,16 +73,19 @@ export default function SearchAppBar(props) {
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            lineHeight="1"
           >
-            NomadMap
+            Nomad Map
+            <br />
+            <small style={{margin: "0px", fontSize: "14px"}}>Find communities in the place you're at</small>
           </Typography>
-          <h2>It is {new Date().toLocaleTimeString()}.</h2>
+
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Find community..."
+              placeholder="Search by location"
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>

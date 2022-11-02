@@ -17,6 +17,7 @@
     "ethers": "^5.7.2",
     "fs": "^0.0.1-security",
     "leaflet": "^1.9.1",
+    "leaflet-geosearch": "^3.7.0",
     "parse-kml": "^1.0.1",
     "public-ip": "^6.0.1",
     "react": "^18.2.0",
