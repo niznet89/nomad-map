@@ -7,7 +7,6 @@ import './App.css';
 import Markers from "./Markers.jsx";
 import SearchAppBar from "./SearchAppBar.jsx";
 import { changeMap } from "./hooks/index.jsx";
-import SearchField from "./SearchField.jsx";
 
 
 function App() {
@@ -29,7 +28,7 @@ function App() {
 
     const results = await provider.search({ query: search });
     console.log(results); // » [{}, {}, {}, ...]
-    setLocations(results);
+    return results;
   }
 
   const inner = [
@@ -55,7 +54,6 @@ function App() {
           zoomControl={false}
           style={{ minHeight: "100vh", minWidth: "100vw", width: "100%" }}
         >
-          <SearchField />
           <ChangeView />
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

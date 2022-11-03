@@ -12,6 +12,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import SearchField from "./SearchField.jsx";
 import { OpenStreetMapProvider } from 'leaflet-geosearch';
 import Button from '@mui/material/InputBase';
+import Autocomplete from './Autocomplete.jsx';
+//import Autocomplete from './Autocomplete.jsx';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -72,12 +74,15 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 export default function SearchAppBar(props) {
   const [search, setSearch] = useState('');
+  const [locations, setLocations] = useState([])
 
   const handleChange = async (event) => {
     const provider = new OpenStreetMapProvider();
     setSearch(event.target.value);
     // function from parent
-    console.log(await props.jsonLocations("bogota"))
+    const results = await props.jsonLocations(search);
+    console.log(results)
+    setLocations(results);
     }
 
 
@@ -109,20 +114,20 @@ export default function SearchAppBar(props) {
             <br />
             <small style={{margin: "0px", fontSize: "14px"}}>Find communities in the place you're at</small>
           </Typography>
-
-          <Search>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              value={search}
-              onChange={handleChange}
-              placeholder="enter your search here"
-              inputProps={{ 'aria-label': 'search' }}
-            />
-
-          </Search>
-
+          <div style={{width: "40ch", id: "autofill", gridArea: 1 / 1 / 2 / 2, overflow: "visible"}}>
+            <Search>
+              <SearchIconWrapper>
+                <SearchIcon />
+              </SearchIconWrapper>
+              <StyledInputBase
+                value={search}
+                onChange={handleChange}
+                placeholder="enter your search here"
+                inputProps={{ 'aria-label': 'search' }}
+              />
+            </Search>
+            <Autocomplete addLocations={locations} />
+          </div>
         </Toolbar>
       </AppBar>
     </Box>
