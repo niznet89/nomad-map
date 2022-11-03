@@ -5,27 +5,25 @@ import { ethers } from "ethers";
 import  nomadMap  from "./assets/nomadMap.json";
 
 
-export default function Markers() {
-  const [groups, setGroups] = useState([['Chiang Mai', '98.9931284', '18.787747', [], ['https://www.facebook.com/groups/cmnomads/']], ['Bali', '115.188916', '-8.4095178', [], ['https://facebook.com/groups/balidigitalnomads/', 'https://facebook.com/groups/553237938183702/']]]);
-  console.log(groups[0]);
+export default function Markers(props) {
 
+  console.log("Markers", props)
   async function pullContractData() {
-    const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545/");
-    const contract = new ethers.Contract("0xFD471836031dc5108809D173A067e8486B9047A3", nomadMap.abi, provider);
+    const provider = new ethers.providers.JsonRpcProvider("https://arb-goerli.g.alchemy.com/v2/FtzUjDoVTmyWO5cBVxzFB0ggI36_SO8q");
+    const contract = new ethers.Contract("0x6F3aAab3433e55E6394ce1E67BCD8E8c264acf01", nomadMap.abi, provider);
     const locations = await contract.returnAllCities();
     console.log(locations);
-    setGroups(locations);
+    props.setGroups(locations);
 
   }
   useEffect(() => {
     pullContractData();
   }, []);
 
-  console.log(groups)
 
   return (
 
-    groups.map((group, i) => (
+    props.groups.map((group, i) => (
 
       (
       <>

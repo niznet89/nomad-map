@@ -11,7 +11,7 @@ require('dotenv').config()
 const nomad_groups = require("../../client/src/assets/nomad-groups.json");
 
 const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545/");
-const wallet = new ethers.Wallet("0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80", provider);
+const wallet = new ethers.Wallet("", provider);
 
 async function main() {
   const NomadMap = await hre.ethers.getContractFactory("NomadMap");

@@ -10,7 +10,7 @@ import { changeMap } from "./hooks/index.jsx";
 
 
 function App() {
-  let [value, setValue] = useState(0);
+  const [groups, setGroups] = useState([['Chiang Mai', '98.9931284', '18.787747', [], ['https://www.facebook.com/groups/cmnomads/']], ['Bali', '115.188916', '-8.4095178', [], ['https://facebook.com/groups/balidigitalnomads/', 'https://facebook.com/groups/553237938183702/']]]);
   const [locations, setLocations] = useState({});
 
   function clickedLocation(location) {
@@ -80,7 +80,7 @@ function App() {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             detectRetina={true}
           />
-          <Markers />
+          <Markers groups={groups} setGroups={setGroups} />
           {/* <Pane name="cyan-rectangle" style={{ zIndex: 500 }}>
             <Rectangle bounds={outer} pathOptions={{ color: 'cyan' }} />
           </Pane> */}
