@@ -14,7 +14,7 @@ input {
 }
 
 .suggestions {
-  border: 0.1px solid white;
+
   color: white;
   border-top-width: 0;
   list-style: none;
@@ -41,5 +41,5 @@ input {
 }
 
 .suggestions li:not(:last-of-type) {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid whitesmoke;
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, forwardRef, useImperativeHandle } from 'react'
 import reactLogo from './assets/react.svg'
 import { MapContainer, TileLayer, Marker, Popup, Rectangle, Pane, useMap } from "react-leaflet";
 //import { useMap } from 'react-leaflet/hooks';
@@ -11,25 +11,45 @@ import { changeMap } from "./hooks/index.jsx";
 
 function App() {
   let [value, setValue] = useState(0);
-  const [locations, setLocations] = useState('');
+  const [locations, setLocations] = useState({});
 
+  function clickedLocation(location) {
+    console.log("back to App", location)
+    const bundle = {coords: {lat: location.y, lng: location.x}, label: location.label};
+    setLocations(bundle);
+  }
 
 
   function ChangeView() {
-    const map = useMap();
-    const sample = changeMap();
-    console.log("map", sample)
-    map.setView(sample.position, 12);
-    return null;
+
+    if (!locations.hasOwnProperty("coords")) {
+      const map = useMap();
+      const sample = changeMap();
+      console.log("map", sample)
+      map.setView(sample.position, 12);
+      return null;
+    } else {
+      const map = useMap();
+      map.setView(locations.coords, 12);
+      return (
+        <>
+        <Marker
+            position={[
+              locations.coords.lat,
+              locations.coords.lng
+            ]}
+          >
+            <Popup>
+              <b>{locations.label} </b>
+              </Popup>
+        </Marker>
+        </>
+        )
+
+    }
+
   }
 
-  async function getSearchQuery(search) {
-    const provider = new OpenStreetMapProvider();
-
-    const results = await provider.search({ query: search });
-    console.log(results); // » [{}, {}, {}, ...]
-    return results;
-  }
 
   const inner = [
     [49.505, -2.09],
@@ -45,7 +65,7 @@ function App() {
   //console.log(position);
   return (
     <>
-    <SearchAppBar jsonLocations={getSearchQuery} />
+    <SearchAppBar clickedLocation={clickedLocation}/>
     <div>
         <MapContainer
           center={[50.5, 30.5]}

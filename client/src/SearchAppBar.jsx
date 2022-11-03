@@ -76,19 +76,17 @@ export default function SearchAppBar(props) {
   const [search, setSearch] = useState('');
   const [locations, setLocations] = useState([])
 
+  console.log("App props", props)
+
   const handleChange = async (event) => {
-    const provider = new OpenStreetMapProvider();
     setSearch(event.target.value);
+    const provider = new OpenStreetMapProvider();
     // function from parent
-    const results = await props.jsonLocations(search);
-    console.log(results)
+    const results = await provider.search({ query: event.target.value });
+    console.log(search)
     setLocations(results);
     }
 
-
-
-
-  // console.log(search);
 
   return (<>
   <Box sx={{ flexGrow: props.test }} >
@@ -115,7 +113,7 @@ export default function SearchAppBar(props) {
             <small style={{margin: "0px", fontSize: "14px"}}>Find communities in the place you're at</small>
           </Typography>
           <div style={{width: "40ch", id: "autofill", gridArea: 1 / 1 / 2 / 2, overflow: "visible"}}>
-            <Search>
+            <Search style={{borderRadius: "0"}}>
               <SearchIconWrapper>
                 <SearchIcon />
               </SearchIconWrapper>
@@ -126,7 +124,7 @@ export default function SearchAppBar(props) {
                 inputProps={{ 'aria-label': 'search' }}
               />
             </Search>
-            <Autocomplete addLocations={locations} />
+            <Autocomplete addLocations={locations} locationFunction={props.clickedLocation} />
           </div>
         </Toolbar>
       </AppBar>
