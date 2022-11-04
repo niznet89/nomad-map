@@ -7,6 +7,7 @@ import './App.css';
 import Markers from "./Markers.jsx";
 import SearchAppBar from "./SearchAppBar.jsx";
 import { changeMap } from "./hooks/index.jsx";
+import getDistanceFromLatLonInKm from "./distanceFunctions.js";
 
 
 function App() {
@@ -31,6 +32,14 @@ function App() {
     } else {
       const map = useMap();
       map.setView(locations.coords, 12);
+
+      for (let i = 0; i < groups.length; i++) {
+        const distance = getDistanceFromLatLonInKm(locations.coords.lat, locations.coords.lng, parseFloat(groups[i][2]), parseFloat(groups[i][1]));
+        console.log("distance", distance)
+        if (distance < 10) {
+          return null;
+        }
+      }
       return (
         <>
         <Marker
@@ -39,8 +48,11 @@ function App() {
               locations.coords.lng
             ]}
           >
-            <Popup>
+            <Popup style={{overflow: "auto"}}>
               <b>{locations.label} </b>
+              <br />
+              <br />
+              <sm>Look's like there arn't any Nomad groups in this location. :( Contribute to the community by adding one!</sm>
               </Popup>
         </Marker>
         </>

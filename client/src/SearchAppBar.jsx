@@ -11,9 +11,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import SearchField from "./SearchField.jsx";
 import { OpenStreetMapProvider } from 'leaflet-geosearch';
-import Button from '@mui/material/InputBase';
+//import Button from '@mui/material/InputBase';
 import Autocomplete from './Autocomplete.jsx';
-//import Autocomplete from './Autocomplete.jsx';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import Autocomplete from './Autocomplete.jsx';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -75,6 +77,10 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export default function SearchAppBar(props) {
   const [search, setSearch] = useState('');
   const [locations, setLocations] = useState([])
+  const [show, setShow] = useState(false);
+
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
 
   console.log("App props", props)
 
@@ -98,8 +104,10 @@ export default function SearchAppBar(props) {
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2 }}
+            style={{margin: "5px"}}
+            onClick={handleShow}
           >
-            <MenuIcon />
+            <MenuIcon  />
           </IconButton>
           <Typography
             variant="h6"
@@ -129,6 +137,28 @@ export default function SearchAppBar(props) {
         </Toolbar>
       </AppBar>
     </Box>
+    <Modal show={show} onHide={handleClose} centered="true">
+        <Modal.Header closeButton >
+          <Modal.Title>Nomad Map</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <h4>What is this?</h4>
+
+          <p><br />Nomad Map was created to reduce the time to making friends / joining communities when you land in a new place.<br /> <br />  The concept is simple: look up where you're going (or where you're at), find the FB / Chat (Whatsapp, Telegram etc.) and you're off to the races!</p>
+          <br />
+          <p>The data is stored on the blockchain providing a public read/write database for the community to continue to add to the project.</p>
+          <br />
+          <h5><b>V2</b></h5>
+          <p>What's next?</p>
+          <ul>
+            <li>Write functionality: create locations & contribute to the project by adding groups/chats</li>
+            <li>Community features: rewards for contributing, Slack/Discord group</li>
+            <li>What would you like to see? DM me  on Twitter: <a href="https://twitter.com/tenzin_rose">@tenzin_rose</a></li>
+          </ul>
+
+          </Modal.Body>
+
+      </Modal>
     </>
   );
 }

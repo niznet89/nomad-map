@@ -3,6 +3,7 @@ import nomadGroups from "./assets/nomad-groups.json";
 import { useState, useEffect, useCallback } from "react";
 import { ethers } from "ethers";
 import  nomadMap  from "./assets/nomadMap.json";
+import 'bootstrap';
 
 
 export default function Markers(props) {
@@ -33,12 +34,33 @@ export default function Markers(props) {
             parseFloat(group[1])
           ]}
         >
-          <Popup>
+          <Popup style={{overflow: "auto"}}>
             <b>{group[0]} </b>
             <br />
-            {group[4].map((element, i) => {
-              return (<p><a href={element}>{element}</a></p>)
-  })}
+            <br />
+            <div class="dropdown">
+                <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Facebook Groups
+                </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                {group[4].map((element, i) => {
+                  return (<li><a class="dropdown-item" href={element}>{element}</a></li>)
+
+                })}
+               </ul>
+            </div>
+            <br />
+            <div class="dropdown">
+                <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Chat Groups (Whatsapp, Telegram etc.)
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                {group[4].map((element, i) => {
+                  return (<li><a class="dropdown-item" href={element}>{element}</a></li>)
+
+                })}
+               </ul>
+            </div>
             </Popup>
       </Marker>
       </>
