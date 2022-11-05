@@ -26,9 +26,15 @@ function App() {
     if (!locations.hasOwnProperty("coords")) {
       const map = useMap();
       const sample = changeMap();
-      console.log("map", sample)
-      map.setView(sample.position, 12);
-      return null;
+      console.log("map", sample.position.lat)
+      if (sample.position.lat === 48.980217) {
+
+        map.setView(sample.position, 2);
+        return null;
+      } else {
+        map.setView(sample.position, 12);
+        return null;
+      }
     } else {
       const map = useMap();
       map.setView(locations.coords, 12);
