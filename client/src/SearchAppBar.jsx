@@ -63,18 +63,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 
 
-// const form = document.querySelector('.css-yz9k0d-MuiInputBase-input').value;
-//const input = form.querySelector('input[type="text"]');
-
-// form.addEventListener('submit', async (event) => {
-//   event.preventDefault();
-//   if (event !== null) {
-//     const results = await provider.search({ query: input.value });
-//     console.log(results); // » [{}, {}, {}, ...]
-//   }
-
-// });
-
 export default function SearchAppBar(props) {
   const [search, setSearch] = useState('');
   const [locations, setLocations] = useState([])
@@ -83,14 +71,14 @@ export default function SearchAppBar(props) {
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
 
-  console.log("App props", props)
+
 
   const handleChange = async (event) => {
     setSearch(event.target.value);
     const provider = new OpenStreetMapProvider();
     // function from parent
     const results = await provider.search({ query: event.target.value });
-    console.log(search)
+
     setLocations(results);
     }
 

@@ -5,11 +5,11 @@ import "./Autocomplete.css"
 export default function Autocomplete(props) {
 
 
-  console.log("we in autocomplete",props)
+
   let suggestionsListComponent = [];
 
   function sendParamsToApp(location) {
-    console.log(location)
+
     props.locationFunction(location)
 
   }
@@ -29,14 +29,8 @@ export default function Autocomplete(props) {
       </ul>
     );
    }
-  //else {
-  //   suggestionsListComponent = (
-  //     <div class="no-suggestions">
-  //       <em>No locations found!</em>
-  //     </div>
-  //   );
-  // }
-  console.log(suggestionsListComponent)
+
+
   return (
     <>
     {suggestionsListComponent}

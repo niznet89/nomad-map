@@ -15,7 +15,6 @@ function App() {
   const [locations, setLocations] = useState({});
 
   function clickedLocation(location) {
-    console.log("back to App", location)
     const bundle = {coords: {lat: location.y, lng: location.x}, label: location.label};
     setLocations(bundle);
   }
@@ -26,7 +25,7 @@ function App() {
     if (!locations.hasOwnProperty("coords")) {
       const map = useMap();
       const sample = changeMap();
-      console.log("map", sample.position.lat)
+
       if (sample.position.lat === 48.980217) {
 
         map.setView(sample.position, 2);
@@ -41,7 +40,7 @@ function App() {
 
       for (let i = 0; i < groups.length; i++) {
         const distance = getDistanceFromLatLonInKm(locations.coords.lat, locations.coords.lng, parseFloat(groups[i][2]), parseFloat(groups[i][1]));
-        console.log("distance", distance)
+
         if (distance < 10) {
           return null;
         }

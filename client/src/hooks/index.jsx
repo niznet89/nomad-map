@@ -33,7 +33,5 @@ export const changeMap = () => {
 
   }, []);
 
-  console.log(position)
-
   return { position };
 };

@@ -12,7 +12,7 @@ export default function SearchField() {
     autoCompleteDelay: 250, // optional: number      - default 250,
     style: "button"
   });
-  console.log(searchControl);
+
 
   const map = useMap();
   useEffect(() => {

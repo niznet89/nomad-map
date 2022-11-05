@@ -8,12 +8,12 @@ import 'bootstrap';
 
 export default function Markers(props) {
 
-  console.log("Markers", props)
+
   async function pullContractData() {
     const provider = new ethers.providers.JsonRpcProvider("https://arb-goerli.g.alchemy.com/v2/FtzUjDoVTmyWO5cBVxzFB0ggI36_SO8q");
     const contract = new ethers.Contract("0x6F3aAab3433e55E6394ce1E67BCD8E8c264acf01", nomadMap.abi, provider);
     const locations = await contract.returnAllCities();
-    console.log(locations);
+
     props.setGroups(locations);
 
   }
