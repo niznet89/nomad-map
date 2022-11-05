@@ -29,13 +29,13 @@ const Search = styled('div')(({ theme }) => ({
   marginLeft: 0,
   width: '100%',
   [theme.breakpoints.up('sm')]: {
-    marginLeft: theme.spacing(0),
+    marginLeft: theme.spacing(1),
     width: 'auto',
   },
 }));
 
 const SearchIconWrapper = styled('div')(({ theme }) => ({
-  padding: theme.spacing(0, 2),
+  padding: theme.spacing(0, 1),
   height: '100%',
   position: 'absolute',
   pointerEvents: 'none',
@@ -49,11 +49,11 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   '& .MuiInputBase-input': {
     padding: theme.spacing(1, 0, 1, 0),
     // vertical padding + font size from searchIcon
-    paddingLeft: `calc(1em + ${theme.spacing(4)})`,
+    paddingLeft: `calc(1em + ${theme.spacing(0)})`,
     transition: theme.transitions.create('width'),
     width: '100%',
     [theme.breakpoints.up('sm')]: {
-      width: '30ch',
+      width: '20ch',
       '&:focus': {
         width: '50ch',
       },
@@ -84,7 +84,7 @@ export default function SearchAppBar(props) {
 
 
   return (<>
-  <Box sx={{ flexGrow: props.test }} >
+  <Box sx={{ flexGrow: 5 }} >
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -109,7 +109,7 @@ export default function SearchAppBar(props) {
             <br />
             <small style={{margin: "0px", fontSize: "14px"}}>Find community & friends wherever you are</small>
           </Typography>
-          <div style={{width: "40ch", id: "autofill", gridArea: 1 / 1 / 2 / 2, overflow: "visible"}}>
+          <div style={{width: "35ch", id: "autofill", gridArea: 1 / 1 / 2 / 2, overflow: "visible", marginLeft: "10%"}}>
             <Search style={{borderRadius: "7px 7px 0px 0px"}}>
               <SearchIconWrapper>
                 <SearchIcon />
@@ -117,7 +117,7 @@ export default function SearchAppBar(props) {
               <StyledInputBase
                 value={search}
                 onChange={handleChange}
-                placeholder="enter your search here"
+                placeholder="Search by location"
                 inputProps={{ 'aria-label': 'search' }}
               />
             </Search>
