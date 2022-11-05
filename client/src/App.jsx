@@ -14,6 +14,8 @@ function App() {
   const [groups, setGroups] = useState([['Chiang Mai', '98.9931284', '18.787747', [], ['https://www.facebook.com/groups/cmnomads/']], ['Bali', '115.188916', '-8.4095178', [], ['https://facebook.com/groups/balidigitalnomads/', 'https://facebook.com/groups/553237938183702/']]]);
   const [locations, setLocations] = useState({});
 
+
+  // This function is hit from Autocomplete Component
   function clickedLocation(location) {
     const bundle = {coords: {lat: location.y, lng: location.x}, label: location.label};
     setLocations(bundle);
@@ -21,10 +23,12 @@ function App() {
 
 
   function ChangeView() {
-
+    const map = useMap();
+    const sample = changeMap();
     if (!locations.hasOwnProperty("coords")) {
-      const map = useMap();
-      const sample = changeMap();
+
+      // changeMap function gathers IP of user and changes location of map OR go's to default location
+
 
       if (sample.position.lat === 48.980217) {
 
@@ -35,7 +39,7 @@ function App() {
         return null;
       }
     } else {
-      const map = useMap();
+
       map.setView(locations.coords, 12);
 
       for (let i = 0; i < groups.length; i++) {
@@ -79,8 +83,8 @@ function App() {
     <SearchAppBar clickedLocation={clickedLocation}/>
     <div>
         <MapContainer
-          center={[31.578, -38.935]}
-          zoom={18}
+          center={[48.980217, 15.564661]}
+          zoom={3}
           scrollWheelZoom={true}
           zoomControl={false}
           style={{ minHeight: "100vh", minWidth: "100vw", width: "100%" }}
