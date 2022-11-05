@@ -5,8 +5,8 @@ import {publicIp, publicIpv4, publicIpv6} from 'public-ip';
 export const changeMap = () => {
   // Logic goes here
   const [position, setPosition] = useState({
-    lat: 47.21725,
-    lng: -1.55336,
+    lat: 31.578,
+    lng: -38.935,
   })
 
   const fetchData = async () => {

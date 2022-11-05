@@ -69,19 +69,13 @@ function App() {
   ]
 
 
-
-  // console.log(import.meta.env);
-  // const { position } = changeMap();
-
-
-  //console.log(position);
   return (
     <>
     <SearchAppBar clickedLocation={clickedLocation}/>
     <div>
         <MapContainer
-          center={[50.5, 30.5]}
-          zoom={12}
+          center={[31.578, -38.935]}
+          zoom={18}
           scrollWheelZoom={true}
           zoomControl={false}
           style={{ minHeight: "100vh", minWidth: "100vw", width: "100%" }}

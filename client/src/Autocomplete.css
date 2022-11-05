@@ -26,6 +26,7 @@ input {
   background-color: #5c98dd;
   z-index:1000;
   position:absolute;
+  border-radius: 0px 0px 7px 7px;
 }
 
 .suggestions li {
@@ -35,7 +36,7 @@ input {
 .suggestion-active,
 .suggestions li:hover {
   background-color: #008f68;
-  color: #fae042;
+  color: white;
   cursor: pointer;
   font-weight: 700;
 }

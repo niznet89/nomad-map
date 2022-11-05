@@ -5,6 +5,8 @@ coverage.json
 typechain
 typechain-types
 
+./scripts/deployGoerli.js
+
 
 #Hardhat files
 cache

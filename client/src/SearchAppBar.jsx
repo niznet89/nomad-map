@@ -15,7 +15,8 @@ import { OpenStreetMapProvider } from 'leaflet-geosearch';
 import Autocomplete from './Autocomplete.jsx';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import Autocomplete from './Autocomplete.jsx';
+import Accordion from 'react-bootstrap/Accordion';
+
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -118,10 +119,10 @@ export default function SearchAppBar(props) {
           >
             Nomad Map
             <br />
-            <small style={{margin: "0px", fontSize: "14px"}}>Find communities in the place you're at</small>
+            <small style={{margin: "0px", fontSize: "14px"}}>Find community & friends wherever you are</small>
           </Typography>
           <div style={{width: "40ch", id: "autofill", gridArea: 1 / 1 / 2 / 2, overflow: "visible"}}>
-            <Search style={{borderRadius: "0"}}>
+            <Search style={{borderRadius: "7px 7px 0px 0px"}}>
               <SearchIconWrapper>
                 <SearchIcon />
               </SearchIconWrapper>
@@ -139,23 +140,48 @@ export default function SearchAppBar(props) {
     </Box>
     <Modal show={show} onHide={handleClose} centered="true">
         <Modal.Header closeButton >
-          <Modal.Title>Nomad Map</Modal.Title>
+          <Modal.Title style={{fontWeight: "bolder"}}>Nomad Map</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h4>What is this?</h4>
 
-          <p><br />Nomad Map was created to reduce the time to making friends / joining communities when you land in a new place.<br /> <br />  The concept is simple: look up where you're going (or where you're at), find the FB / Chat (Whatsapp, Telegram etc.) and you're off to the races!</p>
-          <br />
-          <p>The data is stored on the blockchain providing a public read/write database for the community to continue to add to the project.</p>
-          <br />
-          <h5><b>V2</b></h5>
-          <p>What's next?</p>
-          <ul>
-            <li>Write functionality: create locations & contribute to the project by adding groups/chats</li>
-            <li>Community features: rewards for contributing, Slack/Discord group</li>
-            <li>What would you like to see? DM me  on Twitter: <a href="https://twitter.com/tenzin_rose">@tenzin_rose</a></li>
-          </ul>
+          <p>Nomad Map was created to reduce the time to making friends / joining communities when you land in a new place.<br /> <br />  The concept is simple: look up where you're going (or where you're at), find the FB / Chat (Whatsapp, Telegram etc.) and you're off to the races!</p>
 
+          <p>If you have any suggestions or just want to say hi, find me on Twitter: <a href="https://twitter.com/tenzin_rose">@tenzin_rose</a></p>
+
+                  <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>Why build this?</Accordion.Header>
+                <Accordion.Body>
+                  While being a Nomad certiantly is an amazing lifestyle, there is one consistent drawback I see amongst people living it: lonliness.
+                  <br /><br />
+                  I created this app to contribute to a solution. By providing easy access to communities the hope is people won't feel so isolated when they land in a given location & can make friends more easily.
+                  <br /><br />
+                  The plan for now is to maintain this as a public utility.
+                  <br /><br />
+                  If people find this useful I'll continue to build out the product roadmap.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>What is this built on?</Accordion.Header>
+                <Accordion.Body>
+                The data is stored on the blockchain (<a href="https://arbitrum.io/">Arbitrum</a>) providing a public read/write database for the community to continue to add to the project.
+                <br /><br />
+                Why use a blockchain? 1/ if this is to be a public utility available to all regardless of where they are it needs to be on a neutral, permisionless DB 2/ in order to prevent abuse/spam there needs to be a marginal cost to write to the DB.
+                <br /><br />
+                This website is deployed to the decentralized web via IPFS (<a href="https://ipfs.tech/">IPFS</a>).
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>Roadmap</Accordion.Header>
+                <Accordion.Body>
+                <ul>
+                  <li>Write functionality: create locations & contribute to the project by adding groups/chats</li>
+                  <li>Community features: rewards for contributing, Slack/Discord group</li>
+                  <li>What would you like to see? DM me on Twitter: <a href="https://twitter.com/tenzin_rose">@tenzin_rose</a></li>
+                </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
           </Modal.Body>
 
       </Modal>

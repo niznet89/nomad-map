@@ -20,11 +20,6 @@ export default function Autocomplete(props) {
         {props.addLocations.slice(0, 3).map((location, index) => {
           let className;
 
-          // Flag the active suggestion with a class
-          if (index === 0) {
-            className = "suggestion-active";
-          }
-
           return (
             <li className={className} key={location.label} onClick={() => sendParamsToApp(location)} >
               {location.label}
