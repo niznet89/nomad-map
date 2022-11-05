@@ -109,7 +109,7 @@ export default function SearchAppBar(props) {
             <br />
             <small style={{margin: "0px", fontSize: "14px"}}>Find community & friends wherever you are</small>
           </Typography>
-          <div style={{width: "35ch", id: "autofill", gridArea: 1 / 1 / 2 / 2, overflow: "visible", marginLeft: "10%"}}>
+          <div style={{width: "35ch", id: "autofill", gridArea: 1 / 1 / 2 / 2, overflow: "visible", marginLeft: "5%"}}>
             <Search style={{borderRadius: "7px 7px 0px 0px"}}>
               <SearchIconWrapper>
                 <SearchIcon />

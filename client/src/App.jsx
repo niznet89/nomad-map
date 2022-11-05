@@ -1,4 +1,4 @@
-import { useState, forwardRef, useImperativeHandle } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import { MapContainer, TileLayer, Marker, Popup, Rectangle, Pane, useMap } from "react-leaflet";
 //import { useMap } from 'react-leaflet/hooks';
@@ -24,20 +24,15 @@ function App() {
 
   function ChangeView() {
     const map = useMap();
-    const sample = changeMap();
+
     if (!locations.hasOwnProperty("coords")) {
 
       // changeMap function gathers IP of user and changes location of map OR go's to default location
+      let sample = changeMap();
 
+      map.setView(sample.position, 8);
+      return null;
 
-      if (sample.position.lat === 48.980217) {
-
-        map.setView(sample.position, 2);
-        return null;
-      } else {
-        map.setView(sample.position, 12);
-        return null;
-      }
     } else {
 
       map.setView(locations.coords, 12);
