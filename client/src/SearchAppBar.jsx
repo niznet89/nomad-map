@@ -121,7 +121,7 @@ export default function SearchAppBar(props) {
                 inputProps={{ 'aria-label': 'search' }}
               />
             </Search>
-            <Autocomplete addLocations={locations} locationFunction={props.clickedLocation} />
+            <Autocomplete addLocations={locations} locationFunction={props.clickedLocation} setLocations={setLocations} />
           </div>
         </Toolbar>
       </AppBar>

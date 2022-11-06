@@ -11,7 +11,7 @@ export default function Autocomplete(props) {
   function sendParamsToApp(location) {
 
     props.locationFunction(location)
-
+    props.setLocations("");
   }
 
   if (props.addLocations.length) {
