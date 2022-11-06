@@ -22,11 +22,12 @@ input {
   max-height: 143px;
   overflow-y: auto;
   padding-left: 0;
-  width: 40ch;
+  width: 330px;
   background-color: #5c98dd;
   z-index:1000;
   position:absolute;
   border-radius: 0px 0px 7px 7px;
+  box-sizing: border-box;
 }
 
 .suggestions li {
