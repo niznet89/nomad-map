@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import { ethers } from "ethers";
 import  nomadMap  from "./assets/nomadMap.json";
 import 'bootstrap';
+import Button from 'react-bootstrap/Button';
 
 
 export default function Markers(props) {
@@ -36,6 +37,9 @@ export default function Markers(props) {
         >
           <Popup style={{overflow: "auto"}}>
             <b>{group[0]} </b>
+            <br />
+            <br />
+            <Button variant="outline-info">Add FB or Chat group</Button>{' '}
             <br />
             <br />
             <div class="dropdown">
